@@ -9,23 +9,23 @@ var screens = [
   {
     name: "General",
     items: [
-      {name: "Steps", fun:  () => getSteps()},
-      {name: "HRM", fun:  () => getBpm()},
+      {name: "TEST", fun:  () => getSteps()},
+      {name: "TEST", fun:  () => getBpm()},
       {name: "", fun:  () => ""},
-      {name: "Temp.", fun:  () => getWeatherTemp()},
-      {name: "Humidity", fun:  () => getWeatherHumidity()},
-      {name: "Wind", fun:  () => getWeatherWind()},
+      {name: "TEST", fun:  () => getWeatherTemp()},
+      {name: "TEST", fun:  () => getWeatherHumidity()},
+      {name: "TEST", fun:  () => getWeatherWind()},
     ]
   },
   {
     name: "Hardware",
     items: [
-      {name: "Battery", fun: () => E.getBattery() + "%"},
-      {name: "Charge?", fun: () => Bangle.isCharging() ? /*LANG*/"Yes" : /*LANG*/"No"},
-      {name: "TempInt.", fun: () => locale.temp(parseInt(E.getTemperature()))},
-      {name: "Bluetooth", fun:  () => NRF.getSecurityStatus().connected ? /*LANG*/"Conn" : /*LANG*/"NoConn"},
-      {name: "GPS", fun:  () => Bangle.isGPSOn() ? /*LANG*/"On" : /*LANG*/"Off"},
-      {name: "Compass", fun:  () => Bangle.isCompassOn() ? /*LANG*/"On" : /*LANG*/"Off"},
+      {name: "TEST", fun: () => E.getBattery() + "%"},
+      {name: "TEST", fun: () => Bangle.isCharging() ? /*LANG*/"Yes" : /*LANG*/"No"},
+      {name: "TEST.", fun: () => locale.temp(parseInt(E.getTemperature()))},
+      {name: "TEST", fun:  () => NRF.getSecurityStatus().connected ? /*LANG*/"Conn" : /*LANG*/"NoConn"},
+      {name: "TEST", fun:  () => Bangle.isGPSOn() ? /*LANG*/"On" : /*LANG*/"Off"},
+      {name: "TEST", fun:  () => Bangle.isCompassOn() ? /*LANG*/"On" : /*LANG*/"Off"},
     ]
   },
   {
@@ -40,12 +40,12 @@ var screens = [
   {
     name: "Storage [kB]",
     items: [
-      {name: "Total", fun: () => storage.getStats().totalBytes>>10},
-      {name: "Free", fun: () => storage.getStats().freeBytes>>10},
-      {name: "Trash", fun: () => storage.getStats().trashBytes>>10},
+      {name: "TEST", fun: () => storage.getStats().totalBytes>>10},
+      {name: "TEST", fun: () => storage.getStats().freeBytes>>10},
+      {name: "TEST", fun: () => storage.getStats().trashBytes>>10},
       {name: "", fun: () => ""},
-      {name: "#File", fun: () => storage.getStats().fileCount},
-      {name: "#Trash", fun: () => storage.getStats().trashCount},
+      {name: "TEST", fun: () => storage.getStats().fileCount},
+      {name: "TEST", fun: () => storage.getStats().trashCount},
     ]
   },
 ];
