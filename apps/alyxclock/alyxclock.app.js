@@ -66,7 +66,7 @@ function ohmB(x, y) {
 function heart (x, y) {
   g.setColor('#000');
   g.fillRect(x-2, y-2, x + 32, y + 32)
-  g.setColor('#666');
+  g.setColor('#fff200');
   g.drawRect(x-2, y-2, x + 32, y + 32)
   g.setColor('#f00');
   icon(icoH, x, y, 4, 2);
