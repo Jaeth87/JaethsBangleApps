@@ -1,4 +1,4 @@
-{ "id": "timer",
+{ "id": "timer.app.js",
   "name": "My Timer App",
   "shortName":"My Timer",
   "icon": "app.png",
